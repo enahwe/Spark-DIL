@@ -184,3 +184,7 @@ saveBytesToLocalFile(dataBytes, "./spark-dil-example-13-Beach.jpg")
 ```
 
 Have fun :-)
+
+To get the Spark-DIL library, please contact Philippe ROSSIGNOL at enahwe@gmail.com
+
+Thank you
