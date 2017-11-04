@@ -62,6 +62,16 @@ Import bytes from local memory to a cluster file encoded into Base 64 text forma
 ```
 
 ## Export functions (from Cluster to Spark Driver)
+Export from a RDD to local memory:
+```
+<Bytes> exportFromRDDToLocalMemory(rdd, splitChar)
+```
+
+Export from a RDD to a local text file:
+```
+<void> exportFromRDDToLocalTextFile(rdd, localTextFilePath, splitChar)
+```
+
 Export from a cluster text file to a local text file:
 ```
 <void> exportFromClusterTextFileToLocalTextFile(sparkContext, clusterTextFilePath, localTextFilePath, splitChar)
